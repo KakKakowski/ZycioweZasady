@@ -1,3 +1,6 @@
+const stripe = Stripe('pk_live_51OZVlaGgga06qK7VzhPiLe8FFukJTBj93yXQqmszMBDxS93H4GHvFj3bFFCNEtmbgxUomIECirBElO9ESNWaV5fC00KZVkW0Gy');
+const elements = stripe.elements();
+
 // Pobierz elementy DOM
 const adviceParagraph = document.querySelector('.wrapped-text');
 
