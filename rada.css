@@ -52,14 +52,19 @@ body {
   
   section {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
   
   .button1 {
     display: inline-block;
+    max-width: 150px; /* Możesz dostosować maksymalną szerokość według własnych preferencji */
+    width: auto;
     padding: 10px;
     font-size: 16px;
-    margin: 20px 10px 0;
+    margin: 0 auto;
     cursor: pointer;
     text-decoration: none; /* Usunięcie podkreślenia dla odnośnika */
     color: white;
@@ -70,4 +75,3 @@ body {
   .button1:hover {
     background-color: #555;
   }
-  
