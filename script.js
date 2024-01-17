@@ -34,9 +34,11 @@ function draw() {
 function getRandomAdvice() {
   const randomIndex = Math.floor(Math.random() * adviceList.length);
   const randomAdvice = adviceList[randomIndex];
+  const adviceParagraph = document.getElementById('adviceParagraph');
   adviceParagraph.textContent = randomAdvice;
 }
 
-// Dodaj nasłuchiwanie na kliknięcie przycisku
-const button1 = document.getElementById('button1');
-button1.addEventListener('click', getRandomAdvice);
+// Dodaj nasłuchiwanie na kliknięcie przycisku "Losuj"
+const drawButton = document.getElementById('drawButton');
+drawButton.addEventListener('click', getRandomAdvice);
+
