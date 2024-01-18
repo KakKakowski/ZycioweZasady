@@ -8,6 +8,11 @@ const adviceList = [
   "Bądź wdzięczny za to, co już osiągnąłeś w życiu.",
   "Ucz się na błędach i traktuj je jako cenne doświadczenie.",
   "Szukaj harmonii między pracą a życiem prywatnym."
+  "Rób to, co kochasz, a praca stanie się przyjemnością.",
+  "Staraj się zawsze patrzeć na sytuacje z pozytywnego punktu widzenia.",
+  "Zachowaj zdrowy balans między pracą a odpoczynkiem.",
+  "Bądź otwarty na nowe możliwości i doświadczenia.",
+  "Ciesz się drobnymi chwilami szczęścia każdego dnia.",
 ];
 
 function unlock() {
